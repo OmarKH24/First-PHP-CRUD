@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #202d36;
+  color: #fff;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: gray !important;
+}
+
+.container .myTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.container .myTitle h2 {
+  font-size: 45px;
+}
+
+.container .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container .details .mb-3 {
+  width: 350px;
+}
+
+.container .details .mb-3 input {
+  margin: 10px auto;
+  width: 100%;
+}
+.container .search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px auto;
+}
+.container .search .form-control-search {
+  display: none;
+  width: 0%;
+  max-width: 100%;
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container .search .fa-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.container .clearAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.container .clearAll button {
+  width: 150px !important;
+}
+.container .table {
+  color: #fff !important;
+}
+.container .details .buttons {
+  display: flex;
+}
+.container .details .buttons button {
+  cursor: pointer;
+  margin: 0 15px;
+}
